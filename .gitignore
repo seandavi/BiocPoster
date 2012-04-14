@@ -1,9 +1,10 @@
-BiocSSSCRetreat.aux
-BiocSSSCRetreat.log
-BiocSSSCRetreat.nav
-BiocSSSCRetreat.out
-BiocSSSCRetreat.snm
-BiocSSSCRetreat.toc
+*.log
+*.aux
+*.nav
+*.out
+*.snm
+*.toc
+_region_*
 *.pdf
 *~
 
