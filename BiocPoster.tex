@@ -5,7 +5,7 @@
 %\setlength{\TPHorizModule}{1cm}
 %\setlength{\TPVertModule}{1cm}
 
-\title{BioConductor:  Open Source Tools for the Analysis and Comprehension of Genomic Data}
+\title{BioConductor:  Open Source Tools for the Analysis and Comprehension of the Transcriptome}
 \author{Bioconductor Core Development Group}
 \footer{More information at \texttt{\url{http://bioconductor.org/}}}
 \date{January 13, 2015}
@@ -15,40 +15,46 @@
   \begin{columns}[t]
     \begin{column}{0.24\linewidth}
       \begin{block}{What is Bioconductor?}
-        Bioconductor provides tools for the analysis and comprehension of high-throughput genomic data. Bioconductor uses the R statistical programming language and is open source and free. It has two releases each year, 960 software packages, and an active user community. Bioconductor is also available as an Amazon Machine Image (AMI) and as a set of Docker Images.
-      \end{block}
-      \begin{block}{Microarray Data Analysis}
+        Bioconductor provides tools for the analysis and comprehension of high-throughput genomic data.
         \begin{itemize}
-        \item{Import Affymetrix, Illumina, Nimblegen, Agilent, and other platforms}
-        \item{Microarray quality assessment, normalization, differential expression}
-        \item{Clustering and classification}
-        \item{Gene set enrichment and pathway analysis}
+        \item{Open source and totally free}
+        \item{Collection of 1295 software packages}
+        \item{Active user (100k downloads/year) and developer (>4000 contributors) communities}
+        \item{Cloud-scale with Amazon Machine and Docker Images}
+        \end{itemize}
+      \end{block}
+      \begin{block}{Genomic Data Analysis}
+        \begin{itemize}
+        \item{Microarray quality assessment and normalization}
+        \item{RNA-seq, including single-cell quality control and normalization}
+        \item{Exploratory data analysis}
         \item{Workflows available for:}
      \begin{itemize}
        \item{Gene expression}
-       \item{Exon arrays}
-       \item{Copy number}
-       \item{SNP}
-       \item{Methylation}
+       \item{Pathway analysis}
+       \item{Alternative splicing and isoforms}
+       \item{Fusion gene detection}
+       \item{Variant calling and functional prediction}
      \end{itemize}
         \end{itemize}
       \end{block}
-      \begin{block}{Annotation Resources}
+      \begin{block}{Functional Assays and Analysis}
         \begin{itemize}
-          \item{Use microarray probe, gene, pathway, gene ontology, homology and other annotations} 
-          \item{Access GO, KEGG, NCBI, Biomart, UCSC, vendor, and other sources}
+        \item{CRISPR design, cleavage monitoring, and analysis}
+        \item{Network reconstruction and gene regulation modeling}
+        \item{Generic toolsets for analysis of niche sequencing approaches}
+        \item{Flow cytometry tooling}
+        \item{Image analysis for high content screening analysis}
         \end{itemize}
-        \end{block}
-      \begin{block}{Other High-throughput Technologies}
-        Ability to import, transform, edit, analyze and visualize:
+      \end{block}
+      \begin{block}{Available Data Resources}
         \begin{itemize}
-          \item{Flow cytometry}
-          \item{Mass spec}
-          \item{qPCR}
-          \item{Cell-based assays}
+          \item{Microarray probe, gene, pathway, gene ontology, homology and other annotations} 
+          \item{Online database access to Gene Ontology, KEGG, NCBI, Biomart/Ensembl, UCSC, and many other sources}
+          \item{Experimental data packages including all of TCGA, Pharmacogenomics datsets, LINCS, and 400+ others}
         \end{itemize}
-        \end{block}
-        \end{column}
+      \end{block}
+    \end{column}
     \begin{column}{0.48\linewidth}
       \begin{block}{Graphical Capabilities of Bioconductor}
         \begin{columns}[t]
@@ -108,25 +114,20 @@
 
  \end{column}
     \begin{column}{0.24\linewidth}
-      \begin{block}{Next-Generation Sequencing Analysis}
+      \begin{block}{PrinciplesDesign, and Implementation}
         \begin{itemize}
-          \item{Import fasta, fastq, ELAND, MAQ, BWA, Bowtie, BAM, gff, bed, wig, and other sequence formats} 
-          \item{Trim, transform, align, and manipulate sequences}
-          \item{Workflows}
-            \begin{itemize}
-              \item{Quality assessment}
-              \item{ChIP-seq}
-              \item{RNA-seq and differential expression}
-            \end{itemize}
-          \item{Access the NCBI Sequence Read Archive}
+        \item{Open source, open, community-driven development}
+        \item{Reproducible research through strict versioning and literate programming approaches}
+        \item{Statistical rigor}
+        \item{Interoperability through purpose-built, rich data structures}
         \end{itemize}
       \end{block}
-      \begin{block}{Genomic Variants}
+      \begin{block}{Design and Implementation}
         \begin{itemize}
-          \item{Read and write VCF files}
-          \item{Identify coding variants}
-          \item{Use SIFT and PolyPhen to annotate variants}
-          \item{Overlap variants with arbitrary genomic annotations}
+        \item{Built using the R statistical programming environment}
+        \item{Central infrastructure for code repository and continuous integration and builds}
+        \item{NIH grant funded (NHGRI, NCI)}
+        \item{Comprised of software packages, annotation packages, and experimental data packages}
         \end{itemize}
       \end{block}
       \begin{block}{Data Integration}
@@ -136,7 +137,7 @@
 \small{Bioconductor runs training and education programs regularly throughout the year all over the world.  The annual Bioconductor Conference is held in Seattle each summer.  The Bioconductor support site is an interactive and online forum for discussion of Bioconductor software as well as statistical and informatics questions. Extensive online training materials are at the Bioconductor website.}
       \end{block}
       \begin{block}{Bioconductor Core Members}
-        \small{Sean Davis (NCI), Vince Carey (Harvard), Wolfgang Huber (EMBL), Rafael Irizarry (Harvard), Levi Waldron (CUNY), Aedin Culhane (Harvard), Michael Lawrence (Genentech), Robert Gentleman (Genentech), and Martin Morgan (FHCRC)}
+        \small{Sean Davis (NCI), Vince Carey (Harvard), Wolfgang Huber (EMBL), Rafael Irizarry (Harvard), Levi Waldron (CUNY), Aedin Culhane (Harvard), Michael Lawrence (Genentech), Robert Gentleman (23andMe), and Martin Morgan (Roswell Park C.I.)}
       \end{block}
     \end{column}
     \end{columns}
